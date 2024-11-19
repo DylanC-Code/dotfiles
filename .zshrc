@@ -74,3 +74,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Exports
+export PATH="$HOME/.cargo/bin:$PATH"
+export LS_COLORS="di=1;36"
